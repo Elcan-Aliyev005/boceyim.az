@@ -733,71 +733,7 @@ export default function HomePage() {
         </section>
       </main>
 
-      {/* Footer */}
-      <footer className="bg-black border-t border-cyan-400/20 py-12">
-        <div className="container mx-auto px-4 lg:px-6">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div className="space-y-4">
-              <div className="flex items-center space-x-2">
-                <div className="w-10 h-10 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center shadow-lg shadow-cyan-400/50">
-                  <Terminal className="h-6 w-6 text-black" />
-                </div>
-                <span className="font-bold text-2xl font-mono text-cyan-400">SoftMagic</span>
-                <span className="text-xs text-cyan-400/60 font-mono">.az</span>
-              </div>
-              <p className="text-gray-400 font-mono text-sm">Rəqəmsal gələcəyin arxitekti</p>
-              <p className="text-xs text-gray-500 font-mono">root@softmagic.az</p>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4 text-cyan-400 font-mono">NAVIGATION</h3>
-              <div className="space-y-2">
-                <Link href="/" className="block text-gray-400 hover:text-cyan-400 transition-colors font-mono text-sm">
-                  ./home
-                </Link>
-                <Link
-                  href="/about"
-                  className="block text-gray-400 hover:text-cyan-400 transition-colors font-mono text-sm"
-                >
-                  ./about
-                </Link>
-                <Link
-                  href="/services"
-                  className="block text-gray-400 hover:text-cyan-400 transition-colors font-mono text-sm"
-                >
-                  ./services
-                </Link>
-                <Link
-                  href="/contact"
-                  className="block text-gray-400 hover:text-cyan-400 transition-colors font-mono text-sm"
-                >
-                  ./contact
-                </Link>
-              </div>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4 text-cyan-400 font-mono">ARSENAL</h3>
-              <div className="space-y-2 text-gray-400 font-mono text-sm">
-                <div>Mobile Apps</div>
-                <div>Web Development</div>
-                <div>CRM Systems</div>
-                <div>E-commerce</div>
-              </div>
-            </div>
-            <div>
-              <h3 className="font-semibold mb-4 text-cyan-400 font-mono">CONTACT_PROTOCOL</h3>
-              <div className="space-y-2 text-gray-400 font-mono text-sm">
-                <div>admin@softmagic.az</div>
-                <div>+994 XX XXX XX XX</div>
-                <div>Bakı, Azerbaijan</div>
-                <div className="text-cyan-400">Status: Online</div>
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-cyan-400/20 mt-8 pt-8 text-center text-gray-500 font-mono text-sm">
-            <p>&copy; 2024 SoftMagic.az - All systems protected. Unauthorized access detected.</p>
-          </div>
-        </div>
-      </footer>
+      
 
       <style jsx>{`
         @keyframes grid-move {
